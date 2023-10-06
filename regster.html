@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: bisque;
+        }
+        
+        form {
+            padding: 30px;
+            background-color: rgb(226, 210, 190);
+            /* width: 80%; */
+            border: 3px ridge rgb(82, 82, 233);
+            border-radius: 15px ;
+        }
+        h2 {
+            font-size: 25px;
+            background-color: rgb(226, 210, 190);
+            text-decoration: underline;
+        }
+        input,label,select {
+            margin: 8px 0px;
+            background-color: rgb(226, 210, 190);
+            color: rgb(40, 76, 43);
+        }
+        input {
+            border-radius: 8px ;
+            /* border: none; */
+            padding: 10px 5px;
+            color: aliceblue;
+            background-color: rgb(49, 23, 5);
+        }
+        label {
+            font-weight: bold;
+            
+        }
+        #radio {
+            font-size: 2rem;
+        }
+        .main-cont {
+            margin: auto;
+            width: 50%;
+        }
+        button {
+            border: none;
+            color: rgb(0, 17, 255);
+            font-weight: 700;
+            text-decoration: underline;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-cont">
+        <form action="">
+            <center><h2>Registration Form</h2></center>
+            <label for="">Full name: </label>
+            <input type="text" name="" value="" placeholder="Enter your name" required>
+            <br>
+            <label for="">Email</label>
+            <input type="email" placeholder="Enter your Email" required>
+            <br>
+            <label for="">Password</label>
+            <input type="password" placeholder="Enter your password" required>
+            <br>
+            <label for="">Age</label>
+            <input type="number" placeholder="Enter your age" required>
+            <br>
+            <label for="">Birth Date</label>
+            <input type="date"> <br>
+            <label for="">Gender</label>
+            <select name="" id="">
+                <option value="">----------</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+                <option value="">Other</option>
+            </select>
+            <br>
+            <label for="">Do you have access to a stable  network</label><br>
+            <input type="radio" name="network" id="radio" value="Yes">Yes<br>
+            <input type="radio" name="network" id="radio" value="No">No <br>
+            <label for="">Types of computers ou have used</label><br>
+            <input type="checkbox" name="" value="">Dell<br>
+            <input type="checkbox" name="" value="">Lenovo<br>
+            <input type="checkbox" name="" value="">HP<br>
+            <input type="checkbox" name="" value="">Toshiba<br><br>
+            <input type="submit" value="Register"> Already have an account <button>Login</button>
+
+        </form>
+    </div>
+</body>
+</html>
